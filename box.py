@@ -1,3 +1,4 @@
+#create a box shape with input params.
 def boxprint(symbol, width, height):
     if len(symbol) != 1:
         raise Exception('"symbol" needs to be a string of length 1.')
